@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+a {
+    user-select: none;
+}
+
+body {
+    display: grid;
+    background-color: rgba(20, 20, 20, 1);
+}
+
+.al, .sl {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(30, 30, 30, 1);
+}
+
+.al h1 {
+    padding: 20px;
+}
+
+.sl div {
+    display: flex;
+    align-items: center;
+}
+
+.sl input {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    outline: none;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sl input:checked {
+    background-color: #3498db;
+}
+
+.sl input:hover {
+    border: 2px solid #3498db;
+}
+
+.sl button {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    transition: 0.2s;
+    background-color: transparent;
+    border: solid 2px #3498db;
+    cursor: pointer;
+    outline: 0;
+}
+
+.sl button:hover {
+    background-color: #2677ad;
+}
+
+.als {
+    display: grid;
+}

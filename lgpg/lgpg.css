@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+a {
+    user-select: none;
+}
+
+body {
+    display: flex;
+    background-color: rgba(20, 20, 20, 1);
+    align-items: center;
+    justify-content: center;
+}
+
+.fm {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.fm div h1 {
+    margin-right: 10px;
+}
+
+.fmi {
+    display: flex;
+    justify-content: center;
+}
+
+.chb {
+    width: 160px;
+}
+
+.chb div {
+    display: flex;
+    align-items: center;
+}
+
+.chb input {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    outline: none;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.chb input:checked {
+    background-color: #3498db;
+}
+
+.chb input:hover {
+    border: 2px solid #3498db;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="text"], input[type="number"] {
+    text-align: center;
+    font-size: 18px;
+    width: 280px;
+    height: 40px;
+    background-color: rgba(15, 15, 15, 1);
+    color: white;
+    outline: 0;
+    border: 2px solid #3498db;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 30px;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover i {
+    color: #3498db;
+}
