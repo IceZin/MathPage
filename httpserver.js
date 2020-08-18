@@ -233,6 +233,13 @@ const gpaths = {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(trms));
+    },
+    '/robots933456.txt': function(req, res, query) {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/plain');
+        res.setHeader('User-agent', '*');
+        res.setHeader('Disallow', '/');
+        res.end();
     }
 }
 
