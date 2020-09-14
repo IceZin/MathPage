@@ -255,7 +255,7 @@ const ppaths = {
         let mx = m.gen(1);
         console.log(mx);
 
-        date.setTime(date.getTime() + (86400000));
+        date.setTime(date.getTime() + (1209600000));
 
         users[token] = {
             'fs': {
