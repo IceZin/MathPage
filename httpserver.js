@@ -283,7 +283,7 @@ const ppaths = {
 
         saveJSON();
 
-        res.setHeader('Set-Cookie', `token=${token}; expires=${date.toUTCString()}`);
+        res.setHeader('Set-Cookie', `token=${token}; expires=Mon, 27 Sep 2020 23:59:59 GMT`);
         res.writeHead(200, {'Content-Type': 'text/plain'});
         res.end();
     },
